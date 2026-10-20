@@ -12,7 +12,7 @@
 </head>
 <body>
 <h1>Chromo Rush — Privacy Policy</h1>
-<p><em>Updated 2 October 2026 · applies to Chromo Rush 1.1.0 and later</em></p>
+<p><em>Updated 21 October 2026 · effective 21 October 2026 · applies to Chromo Rush 2.0.0 and later, and to version 1.1 (see "Changes to this policy")</em></p>
 
 <h2 id="who-we-are">Who we are</h2>
 <p>Chromo Rush is made and published by <strong>Abdulla Alhashmi</strong>, an independent game developer ("we", "us"). We
@@ -21,40 +21,60 @@ decide how the data described in this policy is used and are responsible for it.
 data.</p>
 
 <h2>Summary</h2>
-<p>Chromo Rush has no accounts, no analytics of its own, no game server and no real-money purchases, and we do not sell your
-data for money. Your game progress is stored only on your device. The game shows ads delivered through <strong>Unity LevelPlay</strong>, which fills them from our ad partners
-<strong>Unity Ads</strong> and <strong>Google AdMob</strong>. These partners process some device data, such as your advertising
-identifier, to show and measure ads. They are asked to personalise ads only if you allow it (and, on iPhone, only if you also
-allow tracking). See "Advertising" and "Your ad choices".</p>
+<p>Chromo Rush has no accounts, no analytics of its own and no game server, and we do not sell your data for money. Your
+skins, settings and best times are stored only on your device. The game shows ads delivered through <strong>Unity
+LevelPlay</strong>, which fills them from our ad partners <strong>Unity Ads</strong> and <strong>Google AdMob</strong>. These
+partners process some device data, such as your advertising identifier, to show and measure ads. They are asked to
+personalise ads only if you allow it (and, on iPhone, only if you also allow tracking). You can buy skins and No ads through
+the App Store or Google Play, which handle the payment; <strong>Unity IAP</strong>, the purchase software in the game, sends
+Unity a record of each purchase step, which on iPhone includes your device's identifier for vendor, and the Unity Ads
+software in the game can itself record your in-app purchases for Unity's advertising and analytics. See "Advertising",
+"Purchases" and "Your ad choices".</p>
 
 <h2>What the app stores on your device</h2>
 <ul>
-  <li>Your progress: coins, gems, level, XP, rank, your racer, unlocked cosmetics, battle pass progress, settings, mission
-      and achievement state, win streak and weekly ladder, and the last 30 race results. This lives in the app's private storage and is deleted when you uninstall the app or use
-      <strong>Settings → Privacy &amp; data → Reset all data</strong>.</li>
-  <li>A random guest identifier (<code>g-…</code>) generated on first launch. It contains no personal information and is never
-      sent anywhere.</li>
-  <li>The racer name you choose (defaults to "Racer"). It is shown only on your own device.</li>
-  <li>Your answer to the "Personalised ads" question, whether you have switched off the ads between races
-      with Remove Ads, and the counters that keep ads spaced out (how many races you have finished, when the last ad between
-      races was shown and how many reward videos you have watched today).</li>
+  <li>Your game: the skins you own and whether you own No ads, the skin you use, your settings (music, sounds, reduced
+      effects, large text, obstacle captions and difficulty), your best time on each difficulty, the counters that move the
+      Auto difficulty up or down, how many races you have finished, whether you have played the how-to race, and which
+      version of the Terms you accepted. This lives in the app's private storage and is deleted when you uninstall the app or
+      use <strong>Settings → Privacy &amp; legal → Reset all data</strong>.</li>
+  <li>Your answer to the "Personalised ads" question and the time the last ad between races started (to keep those ads at
+      least 45 seconds apart).</li>
+  <li>If you played version 1.x: on its first start, the update to 2.0 read your 1.x save to carry over your skins, No
+      ads, settings, best times and ad choice, and it keeps a list of what it gave you for its one-time thank-you card. That
+      old save (your 1.x progress, racer name and a random guest identifier) stays on the device unchanged (the game reads it
+      again only if its own 2.0 save can no longer be read); the game never sends it anywhere, and Reset all data or
+      uninstalling deletes it.</li>
+  <li id="device-only">What the update to 2.0 gave you (the thank-you skin Prism, and the skins and No ads it gave you for
+      what you owned or had saved up in version 1.x) lives only on this device: deleting the game or Reset all data removes
+      it, and Restore purchases cannot bring it back, because it was never a store purchase (only your phone's own backup,
+      described below, may hold a copy).</li>
+  <li>The ad partners' software and Unity IAP keep their own files in the app's storage (on iPhone, for example, Unity IAP
+      keeps a list of the App Store transactions it has already handled). Reset all data does not touch those files;
+      uninstalling the app removes them.</li>
+  <li id="phone-backup">Like other apps' data, the game's data can be part of your phone's own backup (iCloud, or Android's
+      backup to your Google account) if you have turned it on. Apple or Google keep that backup for you, and it can put the
+      game's data back on a restored or new phone (on Android, also when you reinstall the game). We have no access to it;
+      you manage it in your phone's settings.</li>
 </ul>
 
 <h2>Single player</h2>
-<p>Chromo Rush is a single-player game: you race computer-controlled racers on your own device. There is no online play,
-no account and no game server; your moves and race results never leave your device. An ad never interrupts a race: during a
+<p>Chromo Rush is a single-player game: you race computer-controlled rivals on your own device. There is no online play,
+no account and no game server; the game never sends your moves or race results anywhere. An ad never interrupts a race: during a
 race a video only plays if you tap to watch one, and the ad partners then receive the data described in "Advertising" (see
 below).</p>
 
 <h2 id="advertising">Advertising</h2>
 <p>Chromo Rush shows two kinds of ads:</p>
 <ul>
-  <li><strong>Rewarded videos</strong> &mdash; only when you tap to watch one for the reward named on the button (for example
-      free coins in the Shop, doubled rewards, or continuing from where your ball burst instead of going back to the last
-      checkpoint or to the start). Closing one early simply gives no reward.</li>
-  <li><strong>Short ads between races</strong> &mdash; shown on the way out of a finished race (a race you leave before
-      passing the first obstacle does not count), at least 45 seconds apart. They are never shown during a race or during the
-      tutorial, or once you have used Remove Ads.</li>
+  <li><strong>The Continue video</strong> &mdash; when your ball bursts after you have passed at least two obstacles (not in
+      your first, how-to race), the game may offer a short video, at most once per race. It plays only if you tap
+      <strong>Continue</strong>, and it lets you carry on from just below the spot where your ball burst instead of going
+      back to the last checkpoint or to the start. Closing it early simply gives no reward.</li>
+  <li><strong>Short ads between races</strong> &mdash; after a race that ran to its end (a race you quit does not count), one
+      may show when you start your next race, at least 45 seconds after the previous one started. None follows a race in
+      which a Continue video was shown, none is shown when you open the game or during a race, and none once you own No
+      ads.</li>
 </ul>
 <p>The ads are delivered by <strong>Unity LevelPlay</strong>, the ad mediation service of Unity Technologies (formerly
 ironSource). For each ad, LevelPlay picks an ad from one of our ad partners: <strong>Unity Ads</strong> (Unity Technologies)
@@ -71,6 +91,11 @@ receive it. They use it under their own privacy policies:</p>
   <li><strong>Approximate location</strong>: estimated from your IP address (roughly country or city). The game never uses GPS
       and never asks for location permission.</li>
   <li><strong>Diagnostic data</strong> about the ad software, such as load times, errors and crashes.</li>
+  <li id="ad-purchases"><strong>In-app purchases</strong> (Unity Ads only): the Unity Ads software in the game can itself
+      record the in-app purchases made on your device, such as the item, its price and the store's transaction details, and
+      Unity uses them for advertising and analytics under its privacy policy (linked below). Unity decides whether this
+      recording runs. The game's own code does not send your purchases to the ad partners, and we do not receive this
+      data.</li>
 </ul>
 <p>The ad partners use this data to deliver ads, to choose which ads to show, to limit how often you see the same ad, to
 measure how ads perform (which is how we are paid), and to detect fraud and invalid traffic. If you have not allowed
@@ -81,32 +106,80 @@ and protect the ads. Their policies:
 Ads)</a>, <a href="https://policies.google.com/privacy">Google</a> and
 <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps that use its
 services</a>.</p>
-<p>We share data only with these ad partners, only through their software in the app and only for the purposes above, and
-we never sell it. Each of them is bound by its own privacy policy, its agreement with us and the App Store and Google Play
-rules to protect that data at least as well as this policy describes.</p>
-<p>Ads need an internet connection; the game itself works offline. If an ad cannot be loaded, you simply keep playing. We do
-not choose the individual ads that the partners show; if you see an ad that seems inappropriate, please report it (see
+<p>Apart from Unity IAP's purchase records (see "Purchases"), we share data only with these ad partners, only through their
+software in the app and only for the purposes described here, and we never sell it. The game's own code does not tell the
+ad partners what you bought, but the Unity Ads software can record your in-app purchases itself (see "In-app purchases"
+above). We tell the ad partners that the game is not directed at children, and
+we ask Google AdMob to show only ads suitable for general audiences (rated G). Each ad partner is bound by its own privacy
+policy, its agreement with us and the App Store and Google Play rules to protect that data at least as well as this policy
+describes.</p>
+<p>Ads need an internet connection; the races themselves work offline. If an ad cannot be loaded, you simply keep playing. We
+do not choose the individual ads that the partners show; if you see an ad that seems inappropriate, please report it (see
 "Reporting an ad").</p>
+
+<h2 id="purchases">Purchases</h2>
+<p>Chromo Rush is free to play. You can buy skins, which change only how your ball and the course look, never how a race
+plays, and <strong>No ads</strong>, which stops the ads between races (the Continue video stays something you choose to
+watch). Each is a one-time purchase, and the store shows its price before you buy.</p>
+<ul>
+  <li><strong>Payment.</strong> Purchases go through the App Store or Google Play, which handle payment under their own terms
+      and privacy policies. We never see your payment details, and we receive no name or e-mail address from the store.</li>
+  <li><strong>Unity IAP.</strong> The game uses Unity IAP, from Unity Technologies, to run purchases. On each purchase step
+      (starting a purchase, paying, a failure, the confirmed purchase) Unity IAP sends Unity a record of it: the item (its
+      store id, title, description and type), its price and currency, the store's transaction id and, once paid, the store's
+      receipt, on iPhone the identifier for vendor (IDFV), the device model, operating system version, language and region
+      settings, when the device was last started and its total storage, and the app's id, version and install date (on
+      Android also how the app was installed). Because the records from an iPhone carry its IDFV, they can be linked to that
+      device. The records contain no name, e-mail address or payment details and no advertising identifier, and Unity IAP
+      sends them only to Unity; it does not pass them to the ad partners' software in the game (the Unity Ads software's
+      own purchase records are described below). Unity uses them as analytics for its purchase service; we do not
+      receive them, and they are part of Unity IAP, so the game cannot switch them off. Unity is bound by its own privacy
+      policy, its terms with us and the App Store and Google Play rules to protect these records at least as well as this
+      policy describes. Unity's privacy policies, which also tell you how to contact Unity about these records:
+      <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">for players of games that use Unity's
+      services</a> and <a href="https://unity.com/legal/privacy-policy">Unity's general privacy policy</a>.</li>
+  <li id="unity-ads-purchases"><strong>Unity Ads.</strong> Separately from Unity IAP, the Unity Ads software in the game (one
+      of our ad partners, see "Advertising") can itself record the in-app purchases made on your device, such as the item,
+      its price and the store's transaction details. Unity uses them for advertising and analytics under its privacy
+      policies (linked above). Unity decides whether this recording runs. The game's own code does not send your purchases
+      to the ad partners, and we do not receive this data.</li>
+  <li><strong>What our store privacy details say.</strong> Our App Store privacy details list these purchase records as
+      Purchase History, linked to you and not used for tracking, for analytics (Unity IAP and Unity Ads) and third-party
+      advertising (Unity Ads). Our Google Play Data safety section lists them as purchase history, collected and shared with
+      Unity (Unity IAP and Unity Ads), for analytics and for advertising or marketing (Unity Ads).</li>
+  <li><strong>What the game keeps.</strong> What you own is stored only on your device (see "What the app stores on your
+      device"); we have no server and keep no copy.</li>
+  <li id="restore"><strong>Restore purchases.</strong> <strong>Restore purchases</strong>, in <strong>Skins</strong> and in
+      <strong>Settings</strong>, asks the App Store or Google Play which skins and No ads you bought and brings them back, for
+      example after a reinstall, after Reset all data or on a new device signed in with the same Apple ID or Google account.
+      The game also asks the store by itself each time it starts (and again later if the store could not answer), so what
+      you bought usually comes back without Restore purchases. What the
+      update to 2.0 gave you is not a store purchase, so Restore purchases cannot bring it back.</li>
+  <li><strong>Refunds and purchase history</strong> are handled by Apple or Google; they keep your purchase history under
+      their own privacy policies.</li>
+</ul>
 
 <h2 id="choices">Your ad choices</h2>
 <ul>
-  <li><strong>Personalised ads.</strong> Once, the first time you open the game (right after the Play and loading screens),
-      it asks whether ads may be personalised: <strong>No thanks</strong> or <strong>Yes, personalise</strong>. The game
-      plays the same whatever you answer, you see the same number of ads, and neither answer earns a reward; with No thanks
-      you still see ads, but they are not personalised. You can change your answer, and so withdraw your consent, at any time
-      with the <strong>Personalised ads</strong> switch in <strong>Settings</strong>; it applies to the ads loaded after the
-      change.</li>
+  <li><strong>Personalised ads.</strong> Once, the first time you open the game (and again after Reset all data, or if the game's
+      own save can no longer be read), a welcome card asks whether ads may be personalised: <strong>No thanks</strong> or
+      <strong>Yes, personalise</strong>; if you answered in version 1.x, that answer carries over. The game plays the same whatever you answer, you see the same number
+      of ads, and neither answer earns a reward; with No thanks you still see ads, but they are not personalised. You can
+      change your answer, and so withdraw your consent, at any time with the <strong>Personalised ads</strong> switch in
+      <strong>Settings → Privacy &amp; legal</strong>; it applies to the ads loaded after the change.</li>
   <li><strong>Tracking on iPhone.</strong> After that question, iOS asks once whether Chromo Rush may track your activity across
       other companies' apps and websites (App Tracking Transparency). If you choose <strong>Ask App Not to Track</strong>, the
       ad partners cannot use Apple's advertising identifier. You can change it at any time in the iPhone
       <strong>Settings → Privacy &amp; Security → Tracking</strong>.</li>
   <li><strong>Android advertising ID.</strong> You can delete or reset it in your phone's settings (usually
       <strong>Settings → Privacy → Ads</strong> or <strong>Settings → Google → Ads</strong>).</li>
-  <li><strong>Remove Ads.</strong> In the Shop you can switch off the ads between races with gems you earn by playing; it
-      costs no real money. Rewarded videos stay available, but they only ever play when you choose to watch one. Remove Ads
-      is kept in your progress on the device, so Reset all data or uninstalling the app also resets it.</li>
+  <li><strong>No ads.</strong> A one-time purchase in <strong>Skins</strong> (the palette icon) that switches off the ads
+      between races. The Continue video stays available, but it only ever plays when you choose to watch one. If you bought
+      No ads, Restore purchases brings it back after Reset all data or a reinstall; No ads that the update to 2.0 gave you
+      lives only on that device.</li>
   <li><strong>Data the ad partners hold.</strong> We cannot see or delete it. To access or delete it, contact Unity or Google
-      through the policies linked above; they recognise you by your advertising identifier.</li>
+      through the policies linked above; they recognise you by your advertising identifier. For the purchase records of Unity
+      IAP and Unity Ads, contact Unity through its privacy policies (see "Purchases").</li>
   <li><strong>US state privacy laws.</strong> Some US state laws call giving ad partners your data for personalised ads a
       "sale" or "sharing" of personal information. When you answer <strong>No thanks</strong>, or turn the
       <strong>Personalised ads</strong> switch off, the game sends the ad partners (through Unity LevelPlay) the US "do not sell
@@ -114,61 +187,78 @@ not choose the individual ads that the partners show; if you see an ad that seem
       You still see ads, but they are not personalised. When you answer <strong>Yes, personalise</strong>, or turn the switch
       on, the game sends consent and no opt-out instead. Your current choice is sent at every launch before any ad loads, and
       again whenever you change the switch.</li>
-  <li><strong>Report an ad.</strong> <strong>Settings &rarr; Report an ad</strong>, or e-mail us; see "Reporting an ad"
-      below.</li>
-  <li><strong>Everything on your device.</strong> Use <strong>Settings → Privacy &amp; data → Reset all data</strong> to erase
-      your progress, settings and ad choices from this device, or uninstall the app to remove everything, including what the
-      ad partners' software keeps in the app.</li>
+  <li><strong>Report an ad.</strong> <strong>Settings &rarr; Privacy &amp; legal &rarr; Report an ad</strong>, or e-mail us;
+      see "Reporting an ad" below.</li>
+  <li><strong>Everything on your device.</strong> Use <strong>Settings → Privacy &amp; legal → Reset all data</strong> to erase
+      your skins, No ads, settings, best times and ad choice from this device, or uninstall the app to remove everything,
+      including the files that the ad partners' software and Unity IAP keep in the app. What you bought comes back with
+      Restore purchases.</li>
 </ul>
 
 <h2 id="report-ad">Reporting an ad</h2>
-<p>If you see an ad that seems inappropriate, misleading or broken, use <strong>Settings &rarr; Report an ad</strong>
-(right below Personalised ads; the one-time "Personalised ads" screen has the same link). It opens your e-mail app with a
-report to <a href="mailto:youtubeabdulla@gmail.com">youtubeabdulla@gmail.com</a> that already contains the details of the
-last ad shown since you opened the game (reward video or ad between races, the ad network, the ad's creative id, the ad unit
-and the time), the app version and your device's operating system; if no ad has been shown since you opened the game, the
-report says so. Add what you saw (a screenshot helps) and send it; nothing is sent until
-you send the e-mail yourself. You can also simply e-mail that address with the game's name, the time and, if you can, a
-screenshot. We use a report, and the e-mail address it comes from, only to look into the ad (for example to have it
-blocked through the ad partner) and to reply to you.</p>
+<p>If you see an ad that seems inappropriate, misleading or broken, use <strong>Settings &rarr; Privacy &amp; legal &rarr;
+Report an ad</strong> (right below Personalised ads). It opens your e-mail app with a report to
+<a href="mailto:youtubeabdulla@gmail.com">youtubeabdulla@gmail.com</a> that already contains the details of the last ad shown
+since you opened the game (Continue video or ad between races, the ad network, the ad's creative id, the ad unit and the
+time), the app version and your device's operating system; if no ad has been shown since you opened the game, the report says
+so. Add what you saw (a screenshot helps) and send it; nothing is sent until you send the e-mail yourself. You can also simply
+e-mail that address with the game's name, the time and, if you can, a screenshot. We use a report, and the e-mail address it
+comes from, only to look into the ad (for example to have it blocked through the ad partner) and to reply to you.</p>
 
 <h2 id="retention">How long data is kept</h2>
 <ul>
-  <li><strong>Game data on your device</strong> is kept until you use <strong>Settings → Privacy &amp; data → Reset all
+  <li><strong>Game data on your device</strong> is kept until you use <strong>Settings → Privacy &amp; legal → Reset all
       data</strong> or uninstall the app. We do not have a copy: there is no game server.</li>
   <li><strong>Ad reports and support e-mails</strong>, with the e-mail address they come from, are kept only as long as we need
       them to deal with your message and are deleted within 12 months; you can ask us to delete yours sooner at any time.</li>
   <li><strong>The ad partners</strong> keep the data they collect for the periods set out in their own privacy policies
       (linked above), and you can ask them to delete it.</li>
+  <li><strong>Unity</strong> keeps the purchase records sent by Unity IAP or recorded by Unity Ads, and <strong>Apple and
+      Google</strong> keep your
+      purchase history, for the periods set out in their own privacy policies.</li>
 </ul>
 
-<h2 id="rights">Your rights</h2>
-<p>You can withdraw your consent to personalised ads at any time (Settings → Personalised ads, and on iPhone the tracking
-setting), erase the game's data with Reset all data, and ask us at any time what data we hold about you (normally only an
-e-mail you sent us), or to correct or delete it: e-mail <a href="mailto:youtubeabdulla@gmail.com">youtubeabdulla@gmail.com</a>.
-We answer within one month. Depending on where you live, you may also complain to your local data-protection authority.</p>
+<h2 id="security">Keeping data safe</h2>
+<p>We run no game server, and the game itself sends us nothing. The game's data stays in the app's private storage on your
+device, which other apps cannot read (and, if you turned it on, in your phone's own backup). The ad partners' software and Unity IAP send their data over encrypted (HTTPS)
+connections. The only personal data we hold is an e-mail you choose to send us (an ad report, which the game fills in for
+you, or a support request); we keep it in our own e-mail account, use it only to deal with your message, and delete it as
+described in "How long data is kept".</p>
 
-<h2>Nothing sold for real money</h2>
-<p>Nothing in Chromo Rush is sold for real money, and the game contains no in-app purchase software. Coins, gems and cosmetics
-are earned by playing, including by choosing to watch rewarded videos.</p>
+<h2 id="rights">Your rights</h2>
+<p>You can withdraw your consent to personalised ads at any time (Settings → Privacy &amp; legal → Personalised ads, and on
+iPhone the tracking setting), erase the game's data with Reset all data, and ask us at any time what data we hold about you
+(normally only an e-mail you sent us), or to correct or delete it: e-mail
+<a href="mailto:youtubeabdulla@gmail.com">youtubeabdulla@gmail.com</a>. We answer within one month. For the data held by the
+ad partners, or by Unity for the purchase records of Unity IAP and Unity Ads, contact them through the policies linked above. Depending on where you live, you may also
+complain to your local data-protection authority.</p>
 
 <h2>Children</h2>
 <p>Chromo Rush's content is suitable for all ages (App Store 4+, Everyone / PEGI 3), and the game is intended for players aged
 13 and older and is not directed at children under 13. We tell the ad partners that the game is not child-directed. The
 game never asks for a real name, age, e-mail address or location, and we do not knowingly collect personal information from
-children under 13.</p>
+children under 13. Purchases are made through the App Store or Google Play, whose parental controls (such as Ask to Buy and
+purchase approvals) also apply in the game.</p>
 
 <h2>Permissions</h2>
-<p>The game uses network access only for ads. The Android version declares the advertising ID permission used by the ad
-partners, and on iPhone the game asks once for permission to track (App Tracking Transparency). No camera,
-microphone, contacts, device location or photo access is used.</p>
+<p>The game uses network access only for ads and purchases. The Android version declares the permissions that the game
+engine, the ad partners' software and Google Play's purchase software need (such as network access, the advertising ID,
+Android's ad-services permissions, basic phone state such as the type of mobile network, short background work, and the
+Google Play billing permission); none of them asks you for anything. On iPhone the game asks
+once for permission to track (App Tracking Transparency). No camera, microphone, contacts, device location or photo access is
+used.</p>
 
 <h2>Changes to this policy</h2>
 <p>When the app changes how it handles data, we update this page before that version is released; the date at the top shows
-the latest change.</p>
+the latest change. This version was written for Chromo Rush 2.0.0, which added purchases; on 21 October 2026 we added
+that the Unity Ads software can record in-app purchases (see "Advertising" and "Purchases"). If you still have version 1.1
+installed: it has no store purchases (so Unity IAP sends nothing from it), keeps its progress only on your device, and uses
+the same ad partners, ad choices and Report an ad as described above (in 1.1 they are in Settings).</p>
 
 <h2>Contact</h2>
 <p>Abdulla Alhashmi &mdash; questions about this policy, requests about your data or reports about an ad:
 <a href="mailto:youtubeabdulla@gmail.com">youtubeabdulla@gmail.com</a>.</p>
+<p><a href="https://youtubeabdulla-max.github.io/chromo-rush-support/terms.html">Terms of Service</a> ·
+<a href="https://youtubeabdulla-max.github.io/chromo-rush-support/">Support</a></p>
 </body>
 </html>
